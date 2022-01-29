@@ -11,8 +11,8 @@ function App() {
         <h2>Tinklalapių dizaineris</h2>
       </div>
       <div className="buttons">
-        <a href="">Apie mane</a> <a href="">Mano darbai</a>
-        <a href="">Kontaktai</a>
+        <button>Apie mane</button> <button href="">Mano darbai</button>
+        <button>Kontaktai</button>
       </div>
     </div>
   );
