@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="fonas">
+      <div className="antfono">
+        <h1>Edgaras Starkutis</h1>
+      </div>
+      <div className="antfono2">
+        <h2>Tinklalapių dizaineris</h2>
+      </div>
+      <div className="buttons">
+        <a href="">Apie mane</a> <a href="">Mano darbai</a>
+        <a href="">Kontaktai</a>
+      </div>
     </div>
   );
 }
