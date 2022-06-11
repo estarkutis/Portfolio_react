@@ -43,6 +43,24 @@ const Sidebar = () => (
           <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
         </a>
       </li>
+      <li>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="cia gali buti linked in nuoroda"
+        >
+          <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+        </a>
+      </li>
+      <li>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="cia gali buti linked in nuoroda"
+        >
+          <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+        </a>
+      </li>
     </ul>
   </div>
 )
