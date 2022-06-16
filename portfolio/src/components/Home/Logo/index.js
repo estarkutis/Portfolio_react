@@ -62,6 +62,26 @@ const Logo = () => {
           />
         </g>
       </svg>
+      <svg
+        version="1.2"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 559 897"
+        width="559"
+        height="897"
+      >
+        <g id="Layer">
+          <path
+            id="E"
+            class="s0"
+            d="m16.8 828v-826.7h522.7v94.1h-410.9v244.8h393.7v94.1h-393.7v299.6h420.9v94.1z"
+          />
+          <path
+            id="E copy"
+            class="s0"
+            d="m3.8 895v-826.7h522.7v94.1h-410.9v244.8h393.7v94.1h-393.7v299.6h420.9v94.1z"
+          />
+        </g>
+      </svg>
     </div>
   )
 }
