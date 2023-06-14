@@ -1,0 +1,2 @@
+https://stackoverflow.com/questions/68294434/how-to-handle-complex-svg-as-a-single-path-element
+
