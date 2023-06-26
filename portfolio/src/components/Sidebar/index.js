@@ -38,7 +38,7 @@ const Sidebar = () => (
         <a
           target="_blank"
           rel="noreferrer"
-          href="cia gali buti linked in nuoroda"
+          href="https://www.linkedin.com/in/edgaras-starkutis-5a554971"
         >
           <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
         </a>
