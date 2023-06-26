@@ -3,9 +3,9 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import {
-  
-  faAngular,
+  faWordpress,
   faGitAlt,
   faHtml5,
   faJsSquare,
@@ -51,7 +51,7 @@ const About = () => {
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faAngular} />
+              <FontAwesomeIcon icon={faWordpress} />
             </div>
             <div className="face2">
               <FontAwesomeIcon icon={faHtml5}/>
