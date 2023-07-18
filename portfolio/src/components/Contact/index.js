@@ -7,7 +7,7 @@ import './index.scss'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const refForm = useRef()
+  const Form = useRef()
 
   useEffect(() => {
     setTimeout(() => {
@@ -22,7 +22,7 @@ const Contact = () => {
       .sendForm(
         'yahoo',
         'Kqyp3RDXBcDuIaXu-',
-        refForm.current,
+        Form.current,
         'service_jtjrxzo'
       )
       .then(
@@ -53,7 +53,7 @@ const Contact = () => {
             don't hesitate to contact me using below form either.
           </p>
           <div className="contact-form">
-            <form ref={refForm} onSubmit={sendEmail}>
+            <form ref={Form} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
                   <input type="text" name="name" placeholder="Name" required />

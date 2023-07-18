@@ -1,0 +1,8 @@
+1. neveikia žemėlapis
+visas žemėlapis neveikia
+reikia normaliai nustatyti adresa
+
+2. kontaktavimas per el pašta neveikia
+pasižiurėti emailo serveri
+ir kodą reiktu pasižiurėti
+baltas tekstas per mažas
