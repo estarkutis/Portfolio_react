@@ -4,6 +4,7 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
+import 'leaflet/dist/leaflet.css';
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -97,9 +98,10 @@ const Contact = () => {
           <span>estarkutis@yahoo.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[55.69211, 21.14883]} zoom={13}>
+          <MapContainer style={{ height: "100vh" }} center={[55.71344820362727, 21.137066314788836]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[55.69211, 21.14883]}>
+            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+            <Marker position={[55.71344820362727, 21.137066314788836]}>
               <Popup>Come over for a cup of tea :)</Popup>
             </Marker>
           </MapContainer>
